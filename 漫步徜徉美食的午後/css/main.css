@@ -26,6 +26,7 @@ a:hover,
 #banner .container,
 main header,
 #portfolio .grid,
+#gourmet .grid,
 #contact>div,
 footer #footer-above{
   display:-webkit-box;
@@ -156,6 +157,26 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 
 #portfolio img{max-width:100%;height:auto;display:block;
 }
+
+
+
+#gourmet .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
+}
+
+#gourmet .grid li{margin:20px;max-width:600px;
+}
+
+@media(min-width: 1023px){
+
+  #gourmet .grid li{max-width:420px;
+  }
+}
+
+#gourmet img{max-width:100%;height:auto;display:block;
+}
+
+
+
 
 form{
   width:80%;
