@@ -109,7 +109,7 @@ main header img{border-radius:10%;margin:30px 0 10px;max-width:80%;height:auto;w
 main header .intro-text{max-width:675px;text-align:center;margin-bottom:30px;
 }
 
-@media(min-width: 1023px){
+@media(min-width: 600px){
 
   main header .intro-text{text-align:right;width:610px;
   }
