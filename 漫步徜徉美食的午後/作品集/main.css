@@ -1,11 +1,14 @@
 body{
   margin:0;
   padding:0;
-  color:#FFB7DD;
+  color:#FF88C2;
   background:#FFE4E1;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:20px;
 }
+<style type="text/css">
+body {background-image:url(http://backgroundlabs.com/wp-content/uploads/2013/05/dark-brick-wall-background.jpg);}
+</style>
 
 h2,
 h3{
