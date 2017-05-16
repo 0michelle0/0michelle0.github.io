@@ -112,7 +112,7 @@ main header .intro-text{max-width:300px;text-align:left;margin-bottom:30px;
 
 @media(min-width: 1023px){
 
-  main header .intro-text{text-align:left;width:400px;
+  main header .intro-text{text-align:left;width:300px;
   }
 }
 
