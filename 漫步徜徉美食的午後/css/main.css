@@ -145,7 +145,7 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
   main section#contact>div>div p:last-child{margin-top:270px;
   }
 }
-
+<!-- 作品集-->
 #portfolio .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
 }
 
@@ -195,7 +195,7 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 #contact img{max-width:100%;height:auto;display:block;
 }
 
-<!-- 旅遊-->
+<!-- 旅遊結束-->
 
 
 form{
