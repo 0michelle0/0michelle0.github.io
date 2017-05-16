@@ -16,7 +16,7 @@ h3{
 }
 
 a{
-  color:#722872;
+  color:#D87093;
 }
 
 a:hover,
@@ -47,7 +47,7 @@ footer #footer-above{
 }
 
 #banner{
-  background-color:#722872 !important;
+  background-color:#D87093 !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color:#592059;
@@ -65,7 +65,7 @@ footer #footer-above{
 
 nav{
   font-size:13px;
-  background:#722872;
+  background:#D87093;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -75,7 +75,7 @@ nav{
   nav{padding:5px;text-align:center;margin:0 auto;width:120%;
   }
 
-  nav .active a{color:#722872;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  nav .active a{color:#D87093;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -85,7 +85,7 @@ nav{
 .nav>li a{color:#ffffff;padding:10px 20px;
 }
 
-.nav>li a:hover{color:#722872;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+.nav>li a:hover{color:#D87093;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -227,7 +227,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 .form-item-filled label{top:0;opacity:1;color:#aaa;
 }
 
-.form-item-focused label{color:#722872;
+.form-item-focused label{color:#D87093;
 }
 
 footer{
@@ -252,7 +252,7 @@ footer h3{margin-bottom:30px;color:#fff;
 #footer-above li{display:inline;
 }
 
-#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#722872;text-align:center;
+#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#D87093;text-align:center;
 }
 
 .button{
@@ -269,7 +269,7 @@ footer h3{margin-bottom:30px;color:#fff;
   transition:all .3s ease-in-out;
 }
 
-.button:hover{border:solid 2px #fff;color:#722872;background:#fff;
+.button:hover{border:solid 2px #fff;color:#D87093;background:#fff;
 }
 
 .scroll-top{
@@ -280,11 +280,11 @@ footer h3{margin-bottom:30px;color:#fff;
   right:2%;
 }
 
-.scroll-top a{background:#722872;
+.scroll-top a{background:#D87093;
 }
 
 .scroll-top a:hover,
-    .scroll-top a:focus{color:#722872;background-color:#bbb;border-color:#722872;
+    .scroll-top a:focus{color:#D87093;background-color:#bbb;border-color:#D87093;
 }
 
 @media(min-width:768px){
