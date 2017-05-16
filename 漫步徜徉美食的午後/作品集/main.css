@@ -204,7 +204,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 .form-item label{display:block;z-index:0;position:relative;top:2em;margin:0;font-size:.85em;line-height:1.764705882em;vertical-align:middle;vertical-align:baseline;opacity:0;-webkit-transition:top .3s ease, opacity .3s ease;transition:top .3s ease, opacity .3s ease;
 }
 
-.form-item-filled label{top:0;opacity:1;color:#aaa;
+.form-item-filled label{top:0;opacity:1;color:#FFE4E1;
 }
 
 .form-item-focused label{color:#FFB6C1;
