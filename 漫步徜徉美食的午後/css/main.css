@@ -27,7 +27,11 @@ a:hover,
 main header,
 #portfolio .grid,
 #gourmet .grid,
-#contact>div,
+
+
+#contact.grid,
+
+
 footer #footer-above{
   display:-webkit-box;
   display:-ms-flexbox;
@@ -157,7 +161,7 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 #portfolio img{max-width:100%;height:auto;display:block;
 }
 
-
+<!-- 美食分享-->
 
 #gourmet .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
 }
@@ -174,7 +178,24 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 #gourmet img{max-width:100%;height:auto;display:block;
 }
 
+<!-- 美食分享-->
 
+#contact .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
+}
+
+#contact .grid li{margin:20px;max-width:600px;
+}
+
+@media(min-width: 1023px){
+
+  #contact .grid li{max-width:420px;
+  }
+}
+
+#contact img{max-width:100%;height:auto;display:block;
+}
+
+<!-- 旅遊-->
 
 
 form{
