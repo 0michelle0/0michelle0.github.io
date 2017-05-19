@@ -40,9 +40,6 @@ $(window).on('resize', function() {
       });
 }).resize();
 
-// Floating label headings for the contact form
-
-
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({target: '.navbar-fixed-top'})
 
