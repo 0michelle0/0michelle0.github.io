@@ -189,7 +189,7 @@ form{
 
 form .row:first-child .form-item{border-top:1px solid #fff;
 }
-
+<!-- 下頁圖-->
 .form-item{position:relative;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #bbb;
 }
 
@@ -208,7 +208,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 
 .form-item-focused label{color:#444444;
 }
-
+<!-- 下頁圖結束-->
 footer{
   color:#fff;
   background-color:#666666;
