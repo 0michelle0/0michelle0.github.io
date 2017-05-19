@@ -91,7 +91,7 @@ nav{
   display:block;
 }
 
-main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 main header{background:#FFE4E1;color:#FF88C2;text-align:left;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
