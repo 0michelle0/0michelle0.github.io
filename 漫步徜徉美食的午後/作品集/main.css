@@ -90,8 +90,10 @@ nav{
   height:80px;
   display:block;
 }
+main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
-main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+// main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 main header{background:#FFCCCC;color:#FF88C2;text-align:left;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
@@ -103,7 +105,7 @@ main header{background:#FFCCCC;color:#FF88C2;text-align:left;padding:5px 5% 5px;
   }
 }
 
-main header img{border-radius:10%;margin:10px 0 10px;max-width:70%;height:auto;width:900px;
+main header img{border-radius:10%;margin:10px 0 10px;max-width:70%;height:auto;width:500px;
 }
 
 main header .intro-text{max-width:300px;text-align:left;margin-bottom:30px;
