@@ -122,7 +122,26 @@ main header .intro-text .skills{font-size:1.15em;
 main section{background:#eee;padding:40px 0;
 }
 <!-- 表單-->
+main section#contact>div{margin:0px auto;
+}
 
+main section#contact>div>div{width:80%;
+}
+
+main section#contact>div>div p{margin:60px auto 0;max-width:700px;
+}
+
+@media(min-width:1023px){
+
+  main section#contact>div>div{max-width:38%;
+  }
+
+  main section#contact>div>div p{margin-top:35px;
+  }
+
+  main section#contact>div>div p:last-child{margin-top:270px;
+  }
+}
   <!-- 表單-->
   
 }
