@@ -177,7 +177,18 @@ main section{background:#eee;padding:40px 0;
 }
 
 <!-- 旅遊結束-->
+form{
+  width:80%;
+}
 
+@media(min-width: 1023px){
+
+ form{width:40%;margin-left:20px;
+  }
+}
+
+form .row:first-child .form-item{border-top:1px solid #fff;
+}
 <!-- 下頁圖-->
 .form-item{position:relative;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #bbb;
 }
