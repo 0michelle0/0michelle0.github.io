@@ -16,11 +16,11 @@ h3{
 }
 
 a{
-  color:#FFB6C1;
+  color:#A0522D;
 }
 
 a:hover,
-  a:focus{color:#FFB6C1;
+  a:focus{color:#A0522D;
 }
 
 #banner .container,
@@ -43,7 +43,7 @@ footer #footer-above{
 }
 
 #banner{
-  background-color:#FFB6C1 !important;
+  background-color:#A0522D !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color:#FFB6C1;
@@ -61,7 +61,7 @@ footer #footer-above{
 
 nav{
   font-size:13px;
-  background:#FFB6C1;
+  background:#A0522D;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -71,7 +71,7 @@ nav{
   nav{padding:5px;text-align:center;margin:0 auto;width:120%;
   }
 
-  nav .active a{color:#FFB6C1;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  nav .active a{color:#A0522D;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -81,7 +81,7 @@ nav{
 .nav>li a{color:#ffffff;padding:10px 20px;
 }
 
-.nav>li a:hover{color:#FFB6C1;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+.nav>li a:hover{color:#A0522D;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -206,7 +206,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 .form-item-filled label{top:0;opacity:1;color:#aaa;
 }
 
-.form-item-focused label{color:#FFB6C1;
+.form-item-focused label{color:#A0522D;
 }
 
 
@@ -258,7 +258,7 @@ footer h3{margin-bottom:30px;color:#fff;
 }
 
 .scroll-top a:hover,
-    .scroll-top a:focus{color:#FFB6C1;background-color:#bbb;border-color:#FFB6C1;
+    .scroll-top a:focus{color:#FFB6C1;background-color:#bbb;border-color:#A0522D;
 }
 
 @media(min-width:768px){
