@@ -201,8 +201,9 @@ form{
 
 @media(min-width: 1023px){
 
-  form{width:40%;margin-left:20px;
-  }
+form{
+  width:80%;
+}
 }
 
 form .row:first-child .form-item{border-top:1px solid #fff;
