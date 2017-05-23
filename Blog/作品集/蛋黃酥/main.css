@@ -21,6 +21,13 @@ h3{
   text-transform:uppercase;
   text-indent:50px;
 }
+h4{
+  color:#666;
+  font-weight:bold;
+  text-align:left;
+  text-transform:uppercase;
+  text-indent:75px;
+}
 
 a{
   color:#FF88C2;
