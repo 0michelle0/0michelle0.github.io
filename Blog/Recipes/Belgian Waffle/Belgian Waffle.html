@@ -67,7 +67,9 @@
      
   </section>
   <!-- 作法結束-->
-  
+   <!-- 留言板框架-->
+  <div id="disqus_thread"></div>
+   <!-- 留言板框架止-->
   <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
   <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a></div>
 </main>
@@ -76,12 +78,12 @@
   <div id="footer-above">
     <div>
      
-   <ul>
-     <li><a class="button social" href="#"><i class="fa fa-fw fa-linkedin"></i></a></li>
-     <li><a class="button social" href="#"><i class="fa fa-fw fa-github"></i></a></li>
-     <li><a class="button social" href="#"><i class="fa fa-fw fa-twitter"></i></a></li>
-     <li><a class="button social" href="#" title="My Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
-  </ul>   
+      <ul>
+        <li><a class="button social" href="#"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a class="button social" href="#"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a class="button social" href="#"><i class="fa fa-fw fa-twitter"></i></a></li>
+        <li><a class="button social" href="#" title="My Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+      </ul>
     </div>
   </div>
    <div id="footer-below">
@@ -89,5 +91,20 @@
   </div>
 </footer>
 <!-- <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>-->
+
+<script>
+
+/**
+*  流言版語法
+*/
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://michelle-wang.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </body>
 </html>
