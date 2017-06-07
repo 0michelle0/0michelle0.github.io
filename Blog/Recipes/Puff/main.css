@@ -1,36 +1,44 @@
 body{
   margin:0;
   padding:0;
-  color:#FFFFFF;
-  background-image:url(https://0michelle0.github.io/圖檔/abstract-1845397__480.jpg);
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#888;
+  background-image:url(http://0michelle0.github.io/圖檔/abstract-1853403__480.jpg);
+  font-family:"Helvetica Neue", Helvetica, Arcenterial, sans-serif;
   font-size:20px;
 }
-h2,
-h3{
+
+h2{
   color:#888;
   font-weight:bold;
   text-align:center;
-  text-transform:uppercase;
 }
 
-ul,li{list-style:none;}
+h3{
+  color:#0044BB;
+  font-weight:bold;
+  text-align:left;
+  text-indent:50px;
+}
+h4{
+  color:#666;
+  font-weight:bold;
+  text-align:left;
+  text-indent:75px;
+}
 
 a{
-  color:#8B4513;
+  color:#FF88C2;
 }
 
 a:hover,
-  a:focus{color:#592059;
+  a:focus{color:#FF88C2;
 }
 
 #banner .container,
 main header,
 #portfolio .grid,
 #gourmet .grid,
-#contact .grid,
-
-
+#contact>div,
 footer #footer-above{
   display:-webkit-box;
   display:-ms-flexbox;
@@ -46,10 +54,10 @@ footer #footer-above{
 }
 
 #banner{
-  background-color:#444444 !important;
+  background-color:#FF88C2 !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color:#592059;
+  border-color:#FF88C2;
 }
 
 #banner .container{width:95%;max-width:1024px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;
@@ -64,7 +72,7 @@ footer #footer-above{
 
 nav{
   font-size:13px;
-  background:#444444;
+  background:#FF88C2;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -74,17 +82,17 @@ nav{
   nav{padding:5px;text-align:center;margin:0 auto;width:120%;
   }
 
-  nav .active a{color:#444444;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  nav .active a{color:#FF88C2;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
   }
 }
 
 .nav>li{height:100%;text-transform:uppercase;font-weight:bold;letter-spacing:2px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;
 }
 
-.nav>li a{color:#FFFFFF;padding:10px 20px;
+.nav>li a{color:#ffffff;padding:10px 20px;
 }
 
-.nav>li a:hover{color:#666666;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+.nav>li a:hover{color:#FF88C2;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -93,28 +101,30 @@ nav{
   height:80px;
   display:block;
 }
-
 main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-main header{background:	#666666;color:#fff;text-align:right;padding:70px 10% 50px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
+// main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+main header{background:#FFCCCC;color:#FF0088;text-align:center;vertical-align:top;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
 }
 
 @media(min-width: 1023px){
 
-  main header{padding:30px 30px;
+  main header{padding:50px 30px;
   }
 }
 
-main header img{border-radius:10%;margin:10px 0 10px;max-width:30%;height:auto;width:500px;
+main header img{border-radius:10%;margin:10px 0 10px;max-width:70%;height:auto;width:500px;
 }
 
-main header .intro-text{max-width:675px;text-align:center;margin-bottom:30px;
+main header .intro-text{max-width:300px;text-align:center;margin-bottom:30px;
 }
 
 @media(min-width: 1023px){
 
-  main header .intro-text{text-align:right;width:610px;
+  main header .intro-text{text-align:center;width:300px;
   }
 }
 
@@ -123,7 +133,7 @@ main header .intro-text .skills{font-size:1.15em;
 
 main section{background:#eee;padding:40px 0;
 }
-<!-- 表單-->
+
 main section#contact>div{margin:0px auto;
 }
 
@@ -144,26 +154,23 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
   main section#contact>div>div p:last-child{margin-top:270px;
   }
 }
-  <!-- 表單-->
-  
-}
-<!-- 作品集-->
+
 #portfolio .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
 }
 
-#portfolio .grid li{margin:10px;max-width:600px;
+#portfolio .grid li{margin:20px;max-width:600px;
 }
 
 @media(min-width: 1023px){
 
-  #portfolio .grid li{max-width:210px;
+  #portfolio .grid li{max-width:420px;
   }
 }
 
 #portfolio img{max-width:100%;height:auto;display:block;
 }
 
-<!-- 美食分享-->
+
 
 #gourmet .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
 }
@@ -180,37 +187,22 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 #gourmet img{max-width:100%;height:auto;display:block;
 }
 
-<!-- 旅遊分享-->
 
-#contact .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
-}
 
-#contact .grid li{margin:20px;max-width:600px;
-}
 
-@media(min-width: 1023px){
-
-  #contact .grid li{max-width:420px;
-  }
-}
-
-#contact img{max-width:100%;height:auto;display:block;
-}
-
-<!-- 旅遊結束-->
 form{
   width:80%;
 }
 
 @media(min-width: 1023px){
 
- form{width:40%;margin-left:20px;
+  form{width:40%;margin-left:20px;
   }
 }
 
 form .row:first-child .form-item{border-top:1px solid #fff;
 }
-<!-- 下頁圖-->
+
 .form-item{position:relative;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #bbb;
 }
 
@@ -227,9 +219,9 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 .form-item-filled label{top:0;opacity:1;color:#aaa;
 }
 
-.form-item-focused label{color:#444444;
+.form-item-focused label{color:#FF88C2;
 }
-<!-- 下頁圖結束-->
+
 
 
 footer h3{margin-bottom:30px;color:#fff;
@@ -247,7 +239,7 @@ footer h3{margin-bottom:30px;color:#fff;
 #footer-above li{display:inline;
 }
 
-#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#444444;text-align:center;
+#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#FF88C2;text-align:center;
 }
 
 .button{
@@ -264,7 +256,7 @@ footer h3{margin-bottom:30px;color:#fff;
   transition:all .3s ease-in-out;
 }
 
-.button:hover{border:solid 2px #fff;color:#444444;background:#fff;
+.button:hover{border:solid 2px #fff;color:#FF88C2;background:#fff;
 }
 
 .scroll-top{
@@ -275,11 +267,11 @@ footer h3{margin-bottom:30px;color:#fff;
   right:2%;
 }
 
-.scroll-top a{background:#444444;
+.scroll-top a{background:#FF88C2;
 }
 
 .scroll-top a:hover,
-    .scroll-top a:focus{color:#444444;background-color:#bbb;border-color:#444444;
+    .scroll-top a:focus{color:#FF88C2;background-color:#bbb;border-color:#FF88C2;
 }
 
 @media(min-width:768px){
@@ -287,19 +279,14 @@ footer h3{margin-bottom:30px;color:#fff;
   .scroll-top a{visibility:hidden;
   }
 }
-footer{
-  color:#fff;
-  background-color:#666666;
-  text-align:center;
-  box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
-}
+
 hr.star-bright,
   hr.star-dark{margin:40px auto 30px;padding:0;max-width:512px;border:0;border-top:solid 5px;text-align:center;
 }
 
 @media(min-width: 1023px){
 
-  header hr.star-bright, header hr.star-dark{margin-right:0;text-align:center;
+  header hr.star-bright, header hr.star-dark{margin-right:0;text-align:right;
   }
 
   header hr.star-bright:after, header hr.star-dark:after{right:-10px;
