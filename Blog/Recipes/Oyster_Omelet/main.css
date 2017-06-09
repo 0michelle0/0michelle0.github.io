@@ -2,7 +2,7 @@ body{
   margin:0;
   padding:0;
   color:#888;
-  background-image:url(http://0michelle0.github.io/圖檔/abstract-1853403__480.jpg);
+  background-image:url(http://0michelle0.github.io/圖檔/texture-2060067__480.jpg);
   font-family:"Helvetica Neue", Helvetica, Arcenterial, sans-serif;
   font-size:20px;
 }
@@ -30,11 +30,11 @@ h4{
 }
 
 a{
-  color:#FF88C2;
+  color:#444444;
 }
 
 a:hover,
-  a:focus{color:#FF88C2;
+  a:focus{color:#444444;
 }
 
 #banner .container,
@@ -57,10 +57,10 @@ footer #footer-above{
 }
 
 #banner{
-  background-color:#FF88C2 !important;
+  background-color:#444444 !important;
   height:80px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color:#FF88C2;
+  border-color:#444444;
 }
 
 #banner .container{width:95%;max-width:1024px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;
@@ -75,7 +75,7 @@ footer #footer-above{
 
 nav{
   font-size:13px;
-  background:#FF88C2;
+  background:#444444;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -85,7 +85,7 @@ nav{
   nav{padding:5px;text-align:center;margin:0 auto;width:120%;
   }
 
-  nav .active a{color:#FF88C2;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  nav .active a{color:#444444;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -95,7 +95,7 @@ nav{
 .nav>li a{color:#ffffff;padding:10px 20px;
 }
 
-.nav>li a:hover{color:#FF88C2;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+.nav>li a:hover{color:#444444;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -110,7 +110,7 @@ main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 2px 1
 // main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-main header{background:#FFCCCC;color:#FF0088;text-align:center;vertical-align:top;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
+main header{background:#888888;color:#FFFFFF;text-align:center;vertical-align:top;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
 }
 
 @media(min-width: 1023px){
@@ -222,7 +222,7 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 .form-item-filled label{top:0;opacity:1;color:#aaa;
 }
 
-.form-item-focused label{color:#FF88C2;
+.form-item-focused label{color:#444444;
 }
 
 
@@ -242,7 +242,7 @@ footer h3{margin-bottom:30px;color:#fff;
 #footer-above li{display:inline;
 }
 
-#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#FF88C2;text-align:center;
+#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#444444;text-align:center;
 }
 
 .button{
@@ -259,7 +259,7 @@ footer h3{margin-bottom:30px;color:#fff;
   transition:all .3s ease-in-out;
 }
 
-.button:hover{border:solid 2px #fff;color:#FF88C2;background:#fff;
+.button:hover{border:solid 2px #fff;color:#444444;background:#fff;
 }
 
 .scroll-top{
@@ -270,11 +270,11 @@ footer h3{margin-bottom:30px;color:#fff;
   right:2%;
 }
 
-.scroll-top a{background:#FF88C2;
+.scroll-top a{background:#444444;
 }
 
 .scroll-top a:hover,
-    .scroll-top a:focus{color:#FF88C2;background-color:#bbb;border-color:#FF88C2;
+    .scroll-top a:focus{color:#444444;background-color:#bbb;border-color:#444444;
 }
 
 @media(min-width:768px){
