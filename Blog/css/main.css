@@ -26,9 +26,11 @@ a:hover,
 
 #banner .container,
 main header,
-#portfolio .grid,
+#Western .grid,
+#Chinese .grid,
+#Japanese .grid,
 #gourmet .grid,
-#contact .grid,
+
 
 
 footer #footer-above{
@@ -147,20 +149,52 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
   <!-- 表單-->
   
 }
-<!-- 作品集-->
-#portfolio .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
+<!-- 西式點心-->
+#Western .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
 }
 
-#portfolio .grid li{margin:10px;max-width:600px;
+#Western .grid li{margin:10px;max-width:600px;
 }
 
 @media(min-width: 1023px){
 
-  #portfolio .grid li{max-width:210px;
+  #Western .grid li{max-width:210px;
   }
 }
 
-#portfolio img{max-width:100%;height:auto;display:block;
+#Western img{max-width:100%;height:auto;display:block;
+}
+
+<!-- 中式點心-->
+#Chinese .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
+}
+
+#Chinese .grid li{margin:10px;max-width:600px;
+}
+
+@media(min-width: 1023px){
+
+  #Chinese .grid li{max-width:210px;
+  }
+}
+
+#Chinese img{max-width:100%;height:auto;display:block;
+}
+
+<!-- 日式點心-->
+#Japanese .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
+}
+
+#Japanese .grid li{margin:10px;max-width:600px;
+}
+
+@media(min-width: 1023px){
+
+  #Japanese .grid li{max-width:210px;
+  }
+}
+
+#Japanese img{max-width:100%;height:auto;display:block;
 }
 
 <!-- 美食分享-->
@@ -179,25 +213,8 @@ main section#contact>div>div p{margin:60px auto 0;max-width:700px;
 
 #gourmet img{max-width:100%;height:auto;display:block;
 }
+<!-- 美食分享結束-->
 
-<!-- 旅遊分享-->
-
-#contact .grid{padding:0;max-width:90%;list-style:none;margin-top:20px;
-}
-
-#contact .grid li{margin:20px;max-width:600px;
-}
-
-@media(min-width: 1023px){
-
-  #contact .grid li{max-width:420px;
-  }
-}
-
-#contact img{max-width:100%;height:auto;display:block;
-}
-
-<!-- 旅遊結束-->
 form{
   width:80%;
 }
