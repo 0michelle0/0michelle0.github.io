@@ -2,7 +2,7 @@ body{
   margin:0;
   padding:0;
   color:#888;
-  background:#fff url(http://0michelle0.github.io/食物圖檔/epoisse-2256023__480.jpg)center center fixed no-repeat;
+  background:#fff url(http://0michelle0.github.io/食物圖檔/coffee-2354880__480.jpg)center center fixed no-repeat;
   background-size: cover;
 }
 
@@ -53,7 +53,7 @@ footer #footer-above{
 }
 
 #banner{
-  background-color:#666666 !important;
+  background-color:#23476c !important;
   height:60px;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color:#666666;
@@ -72,7 +72,7 @@ footer #footer-above{
 
 nav{
   font-size:12px;
-  background:#666666;
+  background:#23476c;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -106,7 +106,7 @@ main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:0px 0px 2px 1
 // main >*:not(.scroll-top){max-width:1024px;margin:0 auto;box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-main header{background:#AAAAAA;color:#FFFFFF;text-align:center;vertical-align:top;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
+main header{background:#3770a9;color:#FFFFFF;text-align:center;vertical-align:top;padding:5px 5% 5px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:distribute;align-content:space-around;
 }
 
 @media(min-width: 1023px){
@@ -238,7 +238,7 @@ footer h3{margin-bottom:30px;color:#fff;
 #footer-above li{display:inline;
 }
 
-#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#666666;text-align:center;
+#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#23476c;text-align:center;
 }
 
 .button{
